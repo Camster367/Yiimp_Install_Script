@@ -1,12 +1,12 @@
 #!/bin/bash
 ################################################################################
 # Original Author:   crombiecrunch
-# Current Author: GreeneTech
-# Web:     GreeneTech Mining 
+# Current Author: gregmag
+# Web:     swisscryptopool.ch 
 #
 # Program:
 #   Install yiimp on Ubuntu 16.04 running Nginx, MariaDB, and php7.x
-# BTC Donation: 1ACNkc4ipJNefTLTECNjNt5LmsK82jG6bm
+# BTC Donation: 1zo39EQnu8xh8SozhBcjCt6JwFQH9BKbf
 # 
 ################################################################################
 output() {
@@ -36,7 +36,7 @@ output ""
     read -e -p "Install LetsEncrypt SSL? IMPORTANT! You MUST have your domain name pointed to this server prior to running the script!! [Y/n]: " ssl_install
     
     clear 
-    output "If you found this helpful, please donate to BTC Donation: 1ACNkc4ipJNefTLTECNjNt5LmsK82jG6bm
+    output "If you found this helpful, please donate to BTC Donation: 1zo39EQnu8xh8SozhBcjCt6JwFQH9BKbf"
     output ""
     output "Updating system and installing required packages."
     output ""
@@ -829,4 +829,4 @@ output "Please make sure to change your wallet addresses in the /var/web/serverc
 output ""
 output "Please make sure to add your public and private keys."
 output ""
-output "If you found this script helpful please consider donating some BTC Donation: 1ACNkc4ipJNefTLTECNjNt5LmsK82jG6bm"
+output "If you found this script helpful please consider donating some BTC Donation: 1zo39EQnu8xh8SozhBcjCt6JwFQH9BKbf"
