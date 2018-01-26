@@ -349,7 +349,7 @@ echo 'include /etc/nginx/blockuseragents.rules;
             root /var/www/'"${server_name}"'/html/web;
             index index.php;
         
-            access_log /var/log/nginx/'"${server_name}"'.app-accress.log;
+            access_log /var/log/nginx/'"${server_name}"'.app-access.log;
             error_log  /var/log/nginx/'"${server_name}"'.app-error.log error;
         
             # allow larger file uploads and longer script runtimes
@@ -546,7 +546,7 @@ echo 'include /etc/nginx/blockuseragents.rules;
             root /var/www/'"${server_name}"'/html/web;
             index index.php;
         
-            access_log /var/log/nginx/'"${server_name}"'.app-accress.log;
+            access_log /var/log/nginx/'"${server_name}"'.app-access.log;
             error_log  /var/log/nginx/'"${server_name}"'.app-error.log error;
         
             # allow larger file uploads and longer script runtimes
